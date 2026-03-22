@@ -20,8 +20,9 @@ Thumbs.db
 .claude/
 CLAUDE.md
 
-# ── Internal specifications ───────────────────
+# ── Internal documents ────────────────────────
 specs/
+vision.md
 
 # ── OS artifacts ──────────────────────────────
 *.pid

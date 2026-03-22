@@ -1,0 +1,21 @@
+[book]
+title = "TALA — Intent-Native Narrative Execution Layer"
+authors = ["copyleftdev"]
+description = "Reimagining Linux shell history as a causality-aware, graph-structured narrative of intent."
+language = "en"
+src = "src"
+
+[build]
+build-dir = "../target/book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/copyleftdev/tala"
+edit-url-template = "https://github.com/copyleftdev/tala/edit/main/docs/{path}"
+site-url = "/tala/"
+no-section-label = false
+
+[output.html.fold]
+enable = true
+level = 1

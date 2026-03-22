@@ -146,9 +146,9 @@ crates/
   tala-weave/     Adaptive replay: plan building, variable substitution
   tala-kai/       Insight engine: k-means clustering, pattern detection, prediction
   tala-daemon/    Unified daemon orchestrating all subsystems
-  tala-net/       Distributed TALA: QUIC mesh, Raft consensus (planned)
-  tala-cli/       Command-line interface (planned)
-  tala-sim/       Multi-vertical simulator with chaos injection
+  tala-net/       Distributed TALA: node identity, consistent hashing, TLV codec, in-process transport
+  tala-cli/       Command-line interface: ingest, query, replay, insights, narrative inspection
+  tala-sim/       Multi-domain simulator with chaos injection
 ```
 
 ### Core types
